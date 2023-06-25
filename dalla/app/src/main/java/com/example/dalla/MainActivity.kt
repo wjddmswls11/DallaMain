@@ -26,7 +26,6 @@ import com.example.dalla.adapter.CircleImgAdapter
 import com.example.dalla.adapter.NowTopAdapter
 import com.example.dalla.adapter.ProfilePictureAdapter
 import com.example.dalla.databinding.ItemProfilepictureBinding
-import com.example.dalla.retrofit.DallaViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

@@ -1,17 +1,17 @@
-package com.example.dalla.retrofit
+package com.example.dalla
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.dalla.R
 import com.example.dalla.data.Banner
 import com.example.dalla.data.Event
 import com.example.dalla.data.MyStar
 import com.example.dalla.data.NowTop10
 import com.example.dalla.data.PageNoData
 import com.example.dalla.data.Room
+import com.example.dalla.retrofit.NetworkManager
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.launch
