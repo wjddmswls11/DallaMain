@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingStart="6dp"
+    android:clipToPadding="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:id="@+id/img_oval_first"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/gradient_second"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/img_oval_second"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:background="@drawable/profile_oval"
+        app:layout_constraintStart_toStartOf="@+id/img_oval_first"
+        app:layout_constraintEnd_toEndOf="@+id/img_oval_first"
+        app:layout_constraintTop_toTopOf="@+id/img_oval_first"
+        app:layout_constraintBottom_toBottomOf="@+id/img_oval_first"
+        />
+
+    <ImageView
+        android:id="@+id/img_oval_third"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/profile_oval"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/img_oval_first"
+        app:layout_constraintEnd_toEndOf="@+id/img_oval_first"
+        app:layout_constraintTop_toTopOf="@+id/img_oval_first"
+        app:layout_constraintBottom_toBottomOf="@+id/img_oval_first"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/tv_starBj"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="센 ⭐"
+        android:fontFamily="@font/suit_regular"
+        android:textSize="12dp"
+        android:textColor="#303030"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/img_oval_first"
+        app:layout_constraintTop_toBottomOf="@+id/img_oval_first"
+        app:layout_constraintEnd_toEndOf="@+id/img_oval_first"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

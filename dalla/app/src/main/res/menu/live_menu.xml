@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btn_store"
+        android:title=""
+        android:icon="@drawable/btn_store_w"
+        app:showAsAction="always"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/btn_ranking"
+        android:title=""
+        android:icon="@drawable/btn_ranking_w"
+        app:showAsAction="always"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/btn_message"
+        android:title=""
+        android:icon="@drawable/btn_message_w"
+        app:showAsAction="always"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/btn_alarm"
+        android:title=""
+        android:icon="@drawable/btn_alarm_w"
+        app:showAsAction="always"
+        android:enabled="true"/>
+
+</menu>

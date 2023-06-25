@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dalla</string>
+    <string name="viewpager2_banner">%1$d / %2$d</string>
+    <!-- 추가 번역 -->
+    <string name="viewpager2_banner_ko">%1$d / %2$d</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
