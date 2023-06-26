@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 
 object NetworkManager {
-    private const val BASE_URL = "http://61.80.148.23:3000"
+    private const val BASE_URL = "http://00.00.000.00:0000"
 
     fun retrofit(): DallaRetrofit {
         return Retrofit.Builder()
