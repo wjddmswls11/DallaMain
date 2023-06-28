@@ -263,6 +263,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun setAdapter() {
 
+        val itemDecoration = CustomItemDecoration(dpToPx(6))
+
+
         binding.profilePictureView.apply {
             adapter = profilePictureAdapter
 
@@ -275,6 +278,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             })
+            //사진과 글자가 따로 갈 수 있도록
             setPageTransformer { page, position ->
                 val binding = ItemProfilepictureBinding.bind(page)
                 binding.clsItemprofile.translationX = position * page.width / 2
@@ -285,6 +289,7 @@ class MainActivity : AppCompatActivity() {
             layoutManager =
                 LinearLayoutManager(this@MainActivity, LinearLayoutManager.HORIZONTAL, false)
             adapter = circleImgAdapter
+            addItemDecoration(itemDecoration)
         }
 
         binding.BannerViewPager.apply {
@@ -398,4 +403,11 @@ class MainActivity : AppCompatActivity() {
             nowTopAdapter.setData(nowTopTenLiveData)
         }
     }
+
+    private fun dpToPx(dp: Int): Int {
+        val density = resources.displayMetrics.density
+        return (dp * density).toInt()
+    }
+
+
 }
